@@ -1,0 +1,28 @@
+//utils styles
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+
+//base styles
+@import "./base/base";
+@import "./base/reset";
+@import "./base/container";
+
+//components styles
+@import "./components/btn";
+@import "./components/logo";
+@import "./components/social-list";
+@import "./components/modal";
+
+
+//layout styles
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/activity";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/portfolio";
+
+
+
