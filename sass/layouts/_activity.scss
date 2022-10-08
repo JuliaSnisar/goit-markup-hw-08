@@ -1,25 +1,39 @@
-.activity__list {
-    display: flex;
-    gap: 30px;
+.work-section {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 
-.activity__thumb {
-    position: relative;
+.work-section__list {
+  display: flex;
+  gap: 30px;
 }
 
-.activity__overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(47, 48, 58, 0.8);
-    width: 100%;
-    height: 70px;
-    padding: 27px 0;
+.work-section__item {
+  width: calc((100% - 60px) / 3);
 }
 
-.activity__desc {
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--white-color);
+.work-section__thumb {
+  position: relative;
+}
+
+.work-section__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: $white-color;
+  background-color: $activity-bg;
 }

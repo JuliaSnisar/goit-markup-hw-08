@@ -1,17 +1,10 @@
 //utils styles
-@import './utils/vars';
-@import './utils/visually-hidden';
+@import './utils/variables';
 
 //base styles
 @import './base/base';
-@import './base/reset';
-@import './base/container';
-
 //components styles
-@import './components/btn';
-@import './components/logo';
-@import './components/social-list';
-@import './components/modal';
+@import './components/backdrop';
 @import './components/menu';
 
 //layout styles
