@@ -320,7 +320,9 @@ textarea {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.modal-form-btn:hover, .modal-form-btn:focus {
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
   background-color: #188ce8;
 }
 
