@@ -320,6 +320,9 @@ textarea {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+.modal-form-btn:hover, .modal-form-btn:focus {
+  background-color: #188ce8;
+}
 
 .header__menu-container {
   position: fixed;
