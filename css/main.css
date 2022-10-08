@@ -411,6 +411,9 @@ textarea {
   font-size: 24px;
   line-height: 1.16;
 }
+.header__menu-contact-link--tel {
+  color: #2196f3;
+}
 
 .header__menu-socials-group {
   display: -webkit-box;
@@ -742,6 +745,7 @@ textarea {
 
 .work-section {
   display: none;
+  padding-top: 0;
 }
 @media screen and (min-width: 1200px) {
   .work-section {

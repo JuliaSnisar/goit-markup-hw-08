@@ -91,6 +91,10 @@
     font-size: 24px;
     line-height: 1.16;
   }
+
+  &--tel {
+    color: $accent-color;
+  }
 }
 
 .header__menu-socials-group {
