@@ -197,4 +197,9 @@ textarea {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-hover;
+  }
 }
